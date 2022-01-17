@@ -1,0 +1,808 @@
+xmlText =`<proiect>	
+<student>
+	<nume_student>Andrei</nume_student>
+	<an_studiu>1</an_studiu>
+	<specializare>automatica</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>PC</nume_curs>
+			<nota>7</nota>
+		</curs>
+		<curs>
+			<nume_curs>Mecanica</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>SD</nume_curs>
+			<nota>6</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Maria</nume_student>
+	<an_studiu>1</an_studiu>
+	<specializare>calculatoare</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>PC</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>USO</nume_curs>
+			<nota>7</nota>
+		</curs>
+		<curs>
+			<nume_curs>MN</nume_curs>
+			<nota>8</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Ionel</nume_student>
+	<an_studiu>1</an_studiu>
+	<specializare>automatica</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>PC</nume_curs>
+			<nota>9</nota>
+		</curs>
+		<curs>
+			<nume_curs>SD</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>ELTH</nume_curs>
+			<nota>10</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Flavius</nume_student>
+	<an_studiu>2</an_studiu>
+	<specializare>automatica</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>POO</nume_curs>
+			<nota>8</nota>
+		</curs>
+		<curs>
+			<nume_curs>SDED</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>SS</nume_curs>
+			<nota>8</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Marcel</nume_student>
+	<an_studiu>2</an_studiu>
+	<specializare>calculatoare</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>POO</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>EEA</nume_curs>
+			<nota>6</nota>
+		</curs>
+		<curs>
+			<nume_curs>PP</nume_curs>
+			<nota>4</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Andreea</nume_student>
+	<an_studiu>2</an_studiu>
+	<specializare>calculatoare</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>POO</nume_curs>
+			<nota>7</nota>
+		</curs>
+		<curs>
+			<nume_curs>TS</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>CN</nume_curs>
+			<nota>8</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Amalia</nume_student>
+	<an_studiu>3</an_studiu>
+	<specializare>automatica</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>AC</nume_curs>
+			<nota>10</nota>
+		</curs>
+		<curs>
+			<nume_curs>BD</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>TD</nume_curs>
+			<nota>7</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Gabriel</nume_student>
+	<an_studiu>3</an_studiu>
+	<specializare>automatica</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>BD</nume_curs>
+			<nota>9</nota>
+		</curs>
+		<curs>
+			<nume_curs>IRA</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>AC</nume_curs>
+			<nota>6</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>George</nume_student>
+	<an_studiu>3</an_studiu>
+	<specializare>calculatoare</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>APD</nume_curs>
+			<nota>10</nota>
+		</curs>
+		<curs>
+			<nume_curs>RL</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>ASC</nume_curs>
+			<nota>8</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Ioana</nume_student>
+	<an_studiu>3</an_studiu>
+	<specializare>calculatoare</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>APD</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>TD</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>IAC</nume_curs>
+			<nota>10</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Camelia</nume_student>
+	<an_studiu>4</an_studiu>
+	<specializare>automatica</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>SBC</nume_curs>
+			<nota>9</nota>
+		</curs>
+		<curs>
+			<nume_curs>MP</nume_curs>
+			<nota>10</nota>
+		</curs>
+		<curs>
+			<nume_curs>XML</nume_curs>
+			<nota>10</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Tudor</nume_student>
+	<an_studiu>4</an_studiu>
+	<specializare>automatica</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>SBC</nume_curs>
+			<nota>10</nota>
+		</curs>
+		<curs>
+			<nume_curs>MP</nume_curs>
+			<nota>10</nota>
+		</curs>
+		<curs>
+			<nume_curs>AIP</nume_curs>
+			<nota>10</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Florin</nume_student>
+	<an_studiu>4</an_studiu>
+	<specializare>calculatoare</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>PWEB</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>IOC</nume_curs>
+			<nota>10</nota>
+		</curs>
+		<curs>
+			<nume_curs>MP</nume_curs>
+			<nota>10</nota>
+		</curs>
+	</studiat>
+</student>
+<student>
+	<nume_student>Monica</nume_student>
+	<an_studiu>4</an_studiu>
+	<specializare>calculatoare</specializare>
+	<studiat>
+		<curs>
+			<nume_curs>SI</nume_curs>
+			<nota>9</nota>
+		</curs>
+		<curs>
+			<nume_curs>MP</nume_curs>
+			<nota>4</nota>
+		</curs>
+		<curs>
+			<nume_curs>IOC</nume_curs>
+			<nota>5</nota>
+		</curs>
+	</studiat>
+</student>
+<curs>
+	<nume_curs>PC</nume_curs>
+	<an_studiu>1</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>USO</nume_curs>
+	<an_studiu>1</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>Mecanica</nume_curs>
+	<an_studiu>1</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>PL</nume_curs>
+	<an_studiu>1</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>MN</nume_curs>
+	<an_studiu>1</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>ELTH</nume_curs>
+	<an_studiu>1</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>SD</nume_curs>
+	<an_studiu>1</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>PED1</nume_curs>
+	<an_studiu>1</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>2</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>POO</nume_curs>
+	<an_studiu>2</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>6</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>SS</nume_curs>
+	<an_studiu>2</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>EEA</nume_curs>
+	<an_studiu>2</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>TS</nume_curs>
+	<an_studiu>2</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>PDN</nume_curs>
+	<an_studiu>2</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>PP</nume_curs>
+	<an_studiu>2</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>SDED</nume_curs>
+	<an_studiu>2</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>CN</nume_curs>
+	<an_studiu>2</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>2</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>AC</nume_curs>
+	<an_studiu>3</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>BD</nume_curs>
+	<an_studiu>3</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>APD</nume_curs>
+	<an_studiu>3</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>RL</nume_curs>
+	<an_studiu>3</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>IRA</nume_curs>
+	<an_studiu>3</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>TD</nume_curs>
+	<an_studiu>3</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>ASC</nume_curs>
+	<an_studiu>3</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>IAC</nume_curs>
+	<an_studiu>3</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>1</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>SBC</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>PS</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>MP</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>SI</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>IOC</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>1</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>examen</tip_curs>
+</curs>
+<curs>
+	<nume_curs>XML</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs
+<curs>
+	<nume_curs>TSSC</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>5</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>AIP</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>SACMI</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>PWEB</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>SC</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>SM</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>3</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<curs>
+	<nume_curs>ISI</nume_curs>
+	<an_studiu>4</an_studiu>
+	<semestru>2</semestru>
+	<valoreaza>4</valoreaza>
+	<data_nota>11_ian</data_nota>
+	<zi_data>luni</zi_data>
+	<tip_curs>verificare</tip_curs>
+</curs>
+<laborator>
+	<curs>PC</curs>
+	<studenti>
+		<student>
+			<nume_student>Andrei</nume_student>
+			<nota_lab>8</nota_lab>
+		</student>
+		<student>
+			<nume_student>Maria</nume_student>
+			<nota_lab>5</nota_lab>
+		</student>
+		<student>
+			<nume_student>Ionel</nume_student>
+			<nota_lab>10</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>SD</curs>
+	<studenti>
+		<student>
+			<nume_student>Andrei</nume_student>
+			<nota_lab>7</nota_lab>
+		</student>
+		<student>
+			<nume_student>Ionel</nume_student>
+			<nota_lab>10</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>USO</curs>
+	<studenti>
+		<student>
+			<nume_student>Maria</nume_student>
+			<nota_lab>7</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>POO</curs>
+	<studenti>
+		<student>
+			<nume_student>Flavius</nume_student>
+			<nota_lab>8</nota_lab>
+		</student>
+		<student>
+			<nume_student>Marcel</nume_student>
+			<nota_lab>6</nota_lab>
+		</student>
+		<student>
+			<nume_student>Andreea</nume_student>
+			<nota_lab>8</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>TS</curs>
+	<studenti>
+		<student>
+			<nume_student>Andreea</nume_student>
+			<nota_lab>4</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>SS</curs>
+	<studenti>
+		<student>
+			<nume_student>Flavius</nume_student>
+			<nota_lab>9</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>EEA</curs>
+	<studenti>
+		<student>
+			<nume_student>Marcel</nume_student>
+			<nota_lab>5</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>AC</curs>
+	<studenti>
+		<student>
+			<nume_student>Amalia</nume_student>
+			<nota_lab>10</nota_lab>
+		</student>
+		<student>
+			<nume_student>Gabriel</nume_student>
+			<nota_lab>8</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>BD</curs>
+	<studenti>
+		<student>
+			<nume_student>Amalia</nume_student>
+			<nota_lab>8</nota_lab>
+		</student>
+		<student>
+			<nume_student>Gabriel</nume_student>
+			<nota_lab>10</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>APD</curs>
+	<studenti>
+		<student>
+			<nume_student>George</nume_student>
+			<nota_lab>10</nota_lab>
+		</student>
+		<student>
+			<nume_student>Ioana</nume_student>
+			<nota_lab>4</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>SBC</curs>
+	<studenti>
+		<student>
+			<nume_student>Camelia</nume_student>
+			<nota_lab>10</nota_lab>
+		</student>
+		<student>
+			<nume_student>Tudor</nume_student>
+			<nota_lab>10</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<laborator>
+	<curs>PWEB</curs>
+	<studenti>
+		<student>
+			<nume_student>Florin</nume_student>
+			<nota_lab>10</nota_lab>
+		</student>
+	</studenti>
+</laborator>
+<restanta>
+	<nume_student>Andrei</nume_student>
+	<nume_curs>Mecanica</nume_curs>
+	<nota_toamna>7</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Maria</nume_student>
+	<nume_curs>PC</nume_curs>
+	<nota_toamna>4</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Ionel</nume_student>
+	<nume_curs>SD</nume_curs>
+	<nota_toamna>4</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Flavius</nume_student>
+	<nume_curs>SDED</nume_curs>
+	<nota_toamna>5</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Marcel</nume_student>
+	<nume_curs>POO</nume_curs>
+	<nota_toamna>6</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Amalia</nume_student>
+	<nume_curs>BD</nume_curs>
+	<nota_toamna>4</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Gabriel</nume_student>
+	<nume_curs>IRA</nume_curs>
+	<nota_toamna>4</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>George</nume_student>
+	<nume_curs>RL</nume_curs>
+	<nota_toamna>7</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Ioana</nume_student>
+	<nume_curs>TD</nume_curs>
+	<nota_toamna>8</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Florin</nume_student>
+	<nume_curs>PWEB</nume_curs>
+	<nota_toamna>9</nota_toamna>
+</restanta>
+<restanta>
+	<nume_student>Monica</nume_student>
+	<nume_curs>MP</nume_curs>
+	<nota_toamna>4</nota_toamna>
+</restanta>
+<practicant>Maria</practicant>
+<practicant>Flavius</practicant>
+<practicant>Andreea</practicant>
+<practicant>George</practicant>
+<practicant>Ioana</practicant>
+<practicant>Tudor</practicant>
+<practicant>Florin</practicant>
+<practicant>Monica</practicant>
+</proiect>`
